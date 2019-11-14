@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Yefan Zhou"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Senior Undergraduate in Robotics@ SEU"
+  location         : "Nanjing, China"
   employer         :
-  pubmed           : "Senior Undergraduate in Robotics@ SEU"
+  pubmed           : 
   googlescholar    : 
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
