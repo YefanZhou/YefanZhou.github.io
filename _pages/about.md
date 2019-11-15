@@ -19,7 +19,7 @@ I worked with [Prof. Ruzena Bajcsy](https://people.eecs.berkeley.edu/~bajcsy/) i
 My research interest lies in the integration of machine vision with motion control for making domestic and medical robotic system, focusing on advanced control for dexterous manipulation and human-friendly motion to ensure the operational safety.
 <br/> 
 <br/> 
-Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/paper1.pdf).
+Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_1115.pdf).
 
   
 
