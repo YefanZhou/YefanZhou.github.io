@@ -1,15 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "Research on Image-Based Automatic Wafer Surface Defect Detection Algorithm"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2019-03-01
+venue: 'Journal of Image and Graphics'
+citation: 'Yefan Zhou, "Research on Image-Based Automatic Wafer Surface Defect Detection Algorithm," Journal of Image and Graphics, Vol. 7, No. 1, pp. 26-31, March 2019. doi: 10.18178/joig.7.1.26-31'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+[PDF](http://www.joig.org/index.php?m=content&c=index&a=show&catid=50&id=203)
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
