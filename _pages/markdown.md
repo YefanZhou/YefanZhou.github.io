@@ -1,14 +1,15 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Coursework"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## Locations of key files/directories
-
+## Robotics:
+* Robotic Manipulation and Interaction(EE 106B, [Prof. Ruzena Bajcsy](https://www2.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html))
+<!---
 * Basic config options: _config.yml
 * Top navigation bar config: _data/navigation.yml
 * Single pages: _pages/
@@ -21,9 +22,10 @@ redirect_from:
 * Footer: _includes/footer.html
 * Static files (like PDFs): /files/
 * Profile image (can set in _config.yml): images/profile.png
-
-## Tips and hints
-
+-->
+## Artificial Intelligence:
+* Introduction to Artificial Intelligence(CS188, [Prof.Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/), [Stuart Russell](https://people.eecs.berkeley.edu/~russell/))
+<!---
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
 * Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
   * Green check: successful build
@@ -200,3 +202,4 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 ### Variable Tag
 
 This allows you to denote <var>variables</var>.
+-->
