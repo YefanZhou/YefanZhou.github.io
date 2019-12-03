@@ -12,6 +12,6 @@ location: "Nanjing, China"
 * Derived a mathematical model for transformation from point cloud coordinate to image raster space.
 * Further improved the reconstruction workflow based on point cloud perceptual loss function constructed by pre-trained encoder and the optimization of local geometric feature represented by k-nearest neighbors covariance.
 * The further research directions are considered as:
-  * Leveraged learning theory of distribution to reformulate the reconstruction learning.
+  * Leveraged learning theory of distribution to interpret the internal mechanism of reconstruction.
   * Multi-Object Reconstruction in a scene.        
  
