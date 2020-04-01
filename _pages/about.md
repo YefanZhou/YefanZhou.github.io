@@ -20,19 +20,17 @@ My research interest lies in the integration of machine vision with motion contr
 <br/> 
 <br/> 
 Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_4_1.pdf).
-  
-  
-  
-  
-  
+<br/>
+<br/>
+
+-------------
 Recent Activities
 ======
-* March 5th: Paper: *Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks* submitted to IEEE ECCV2020.
-  
-  
-  
-  
-  
+* March 5th: Paper: *Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks* submitted to IEEE ECCV 2020.
+<br/>
+<br/>
+
+-------------
 Education
 ======
 * **B.Eng**, Sep 2016 – June 2020，@ Southeast University  
