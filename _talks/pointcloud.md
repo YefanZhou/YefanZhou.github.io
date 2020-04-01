@@ -3,9 +3,9 @@ title: "3D Object Shape Reconstruction from RGB images"
 collection: talks
 type: "Research Assistant"
 permalink: /talks/pointcloud
-venue: "<br/> Mentor: Yaoqing Yang, RISELab, UC Berkeley; &emsp;  <br/> Supervisor: &emsp;Prof. Luxi Yang,&emsp; Information Science and Engineering Lab,&emsp; Southeast University"
+venue: "<br/> Mentor: &emsp; Yaoqing Yang, RISELab, UC Berkeley; <br/> Supervisor: &emsp;Prof. Luxi Yang, Information Science and Engineering Lab,  Southeast University"
 date: 2019-09-05
-location: "&emsp;Nanjing, &emsp;China"
+location: "Nanjing, China"
 ---
 
 * Leveraged NumPy and PyTorch in Python to build a deep neural network model for 3D object shape (represented by point cloud) reconstruction from a single RGB image; trained the model on ShapeNet.
