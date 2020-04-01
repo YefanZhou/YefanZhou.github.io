@@ -3,9 +3,9 @@ title: "Upper Limb Exoskeleton System and Humanoid Trajectory Planning"
 collection: talks
 type: "Research Assistant"
 permalink: /talks/2012-03-01-talk-1
-venue: "<br/>Supervisor: Ruzena Bajcsy, &emsp;Human-Assistive Robotic Technologies Lab, &emsp;UC Berkeley"
+venue: "<br/>Supervisor: &emsp;Ruzena Bajcsy, &emsp;Human-Assistive Robotic Technologies Lab, &emsp;UC Berkeley"
 date: 2019-06-05
-location: "Berkeley CA, USA"
+location: "&emsp;Berkeley CA, &emsp;USA"
 ---
 
 The aim of the project is to develop trajectory planner and low-level controller for wearable robotic upper limb exoskeleton to assist patient’s arm movement in gaze-based rehabilitation training especially reaching tasks.

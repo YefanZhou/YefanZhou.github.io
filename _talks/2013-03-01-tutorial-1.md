@@ -3,9 +3,9 @@ title: "Soft Fingertip in Probing"
 collection: talks
 type: "Course Project Team Leader"
 permalink: /talks/2013-03-01-tutorial-1
-venue: "<br/>Supervisor: Ruzena Bajcsy, &emsp;EECS 106B, &emsp;UC Berkeley"
+venue: "<br/>Supervisor: &emsp;Ruzena Bajcsy, &emsp;EECS 106B, &emsp;UC Berkeley&emsp;"
 date: 2019-04-05
-location: "Berkeley CA, USA"
+location: "&emsp;Berkeley CA, &emsp;USA"
 ---
 
 In this work, we built and experimentally characterized a compliance-modulating fingertip-inspired tactile sensor using pneumatic sealed elastic membrane and a depth-sensing camera as an add-on to the Baxter robot for scanning a 3D terrain and measuring the distribution of stiffness:
