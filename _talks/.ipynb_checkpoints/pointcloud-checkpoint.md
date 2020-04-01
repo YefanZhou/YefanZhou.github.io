@@ -9,9 +9,10 @@ location: "Nanjing, China"
 ---
 
 * Leveraged NumPy and PyTorch in Python to build a deep neural network model for 3D object shape (represented by point cloud) reconstruction from a single RGB image; trained the model on ShapeNet.
+* Proposed and proved the correlation between clustering tendency of training dataset and performance bias of neural network.
 * Leveraged Shrink Wrap modifier and OpenGL renderer in Blender to build an interpolation-based 3D model synthetic dataset.
-* Defined a metric to measure the clustering tendency of a 3D model dataset based on silhouette score and affinity propagation.
-* Proposed and proved the correlation between clustering tendency of 3D model dataset and performance bias of neural network.
+* Defined a metric to measure the clustering tendency of 3D model dataset based on silhouette score and affinity propagation.
+
   
   
   
@@ -22,6 +23,6 @@ location: "Nanjing, China"
 
 
 <p float="left">
-<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="400" height="800" />
-<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="400" height="800"/> 
+<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="500" height="800" />
+<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="500" height="800"/> 
 </p>
