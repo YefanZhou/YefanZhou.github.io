@@ -3,7 +3,7 @@ title: "3D Object Shape Reconstruction from RGB images"
 collection: talks
 type: "Research Assistant"
 permalink: /talks/pointcloud
-venue: "Mentor: Yaoqing Yang, RISELab, UC Berkeley; &emsp; Yiru Shen, Facebook Reality Labs; <br/> Supervisor: Prof. Luxi Yang, Information Science and Engineering Lab, Southeast University"
+venue: "Mentor: Yaoqing Yang, RISELab, UC Berkeley; &emsp;  <br/> Supervisor: Prof. Luxi Yang, Information Science and Engineering Lab, Southeast University"
 date: 2019-09-05
 location: "Nanjing, China"
 ---
@@ -20,5 +20,5 @@ location: "Nanjing, China"
   
   
 <p align="center">
-<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="200" height="200" />
+<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="400" height="600" />
 </p>
