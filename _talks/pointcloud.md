@@ -18,5 +18,7 @@ location: "Nanjing, China"
 [[PDF]](http://YefanZhou.github.io/files/reconstruction_or_recognition_justifying_single_view_3d_reconstruction_networks.pdf)
   
   
-![GitHub Logo](http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png =10x20)
- 
+  
+<p align="center">
+<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="200" height="200" />
+</p>
