@@ -3,7 +3,7 @@ title: "3D Object Shape Reconstruction from RGB images"
 collection: talks
 type: "Research Assistant"
 permalink: /talks/pointcloud
-venue: "Mentor: Yaoqing Yang, RISELab, UC Berkeley; &emsp;  <br/> Supervisor: Prof. Luxi Yang, Information Science and Engineering Lab, Southeast University"
+venue: "<br/> Mentor: Yaoqing Yang, RISELab, UC Berkeley; &emsp;  <br/> Supervisor: Prof. Luxi Yang,&emsp; Information Science and Engineering Lab,&emsp; Southeast University"
 date: 2019-09-05
 location: "Nanjing, China"
 ---

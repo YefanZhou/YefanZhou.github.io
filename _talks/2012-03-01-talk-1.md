@@ -3,7 +3,7 @@ title: "Upper Limb Exoskeleton System and Humanoid Trajectory Planning"
 collection: talks
 type: "Research Assistant"
 permalink: /talks/2012-03-01-talk-1
-venue: "Supervisor: Ruzena Bajcsy, Human-Assistive Robotic Technologies Lab, UC Berkeley"
+venue: "<br/>Supervisor: Ruzena Bajcsy, &emsp;Human-Assistive Robotic Technologies Lab, &emsp;UC Berkeley"
 date: 2019-06-05
 location: "Berkeley CA, USA"
 ---
