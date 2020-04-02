@@ -13,17 +13,17 @@ Recent works have shown that deep neural networks tend to perform recognition in
 * Proposed and proved the correlation between clustering tendency of training dataset and performance bias of neural network.
 * Leveraged Shrink Wrap modifier and OpenGL renderer in Blender to build an interpolation-based 3D model synthetic dataset.
 * Defined a metric to measure the clustering tendency of 3D model dataset based on silhouette score and affinity propagation.
-* [[A paper under review]](http://YefanZhou.github.io/)
+* [[A paper under review]](http://YefanZhou.github.io/publications/2009-10-01-paper-title-number-1.md)
   
   
   
-[[PDF]](http://YefanZhou.github.io/files/reconstruction_or_recognition_justifying_single_view_3d_reconstruction_networks.pdf)
+<!--[[PDF]](http://YefanZhou.github.io/files/reconstruction_or_recognition_justifying_single_view_3d_reconstruction_networks.pdf)-->
   
   
   
   
   
 <p float="left">
-<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="350" height="2000" />
-<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="350" height="2000"/> 
+<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="350" height="2000" class="center"/>
+<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="350" height="2000" class="center"/> 
 </p>
