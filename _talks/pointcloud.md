@@ -8,10 +8,12 @@ date: 2019-09-05
 location: "Nanjing, China"
 ---
 
+Recent works have shown that deep neural networks tend to perform recognition instead of 3D reconstruction. In this work, we show that the bias towards recognition is due to the intrinstic properties of dataset: when the training set of 3D shapes has a more clustered structure, the deep neural networks trained on this dataset become more likely to perform recognition than reconstruction.
 * Leveraged NumPy and PyTorch in Python to build a deep neural network model for 3D object shape (represented by point cloud) reconstruction from a single RGB image; trained the model on ShapeNet.
 * Proposed and proved the correlation between clustering tendency of training dataset and performance bias of neural network.
 * Leveraged Shrink Wrap modifier and OpenGL renderer in Blender to build an interpolation-based 3D model synthetic dataset.
 * Defined a metric to measure the clustering tendency of 3D model dataset based on silhouette score and affinity propagation.
+* [[A paper under review]](http://YefanZhou.github.io/)
   
   
   
