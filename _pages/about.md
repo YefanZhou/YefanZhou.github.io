@@ -27,7 +27,7 @@ Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_4_1.pdf).
   
 Recent Activities
 ======
-* April 2rd: I become an incoming EECS Master of Engineering student concentrated on Robotics and Embedded System Track.
+* April 2rd: I become an incoming EECS Master of Engineering student at UC Berkeley concentrated on Robotics and Embedded System Track.
 * March 5th: Paper: *Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks* submitted to IEEE ECCV 2020.
   
   
