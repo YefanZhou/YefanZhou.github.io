@@ -13,7 +13,7 @@ Recent works have shown that deep neural networks tend to perform recognition in
 * Proposed and proved the correlation between clustering tendency of training dataset and performance bias of neural network.
 * Leveraged Shrink Wrap modifier and OpenGL renderer in Blender to build an interpolation-based 3D model synthetic dataset.
 * Defined a metric to measure the clustering tendency of 3D model dataset based on silhouette score and affinity propagation.
-* [A paper under review](http://YefanZhou.github.io/publications/2009-10-01-paper-title-number-1.md)
+* [A paper under review](https://yefanzhou.github.io/publications/2009-10-01-paper-title-number-1/)
   
   
   
