@@ -12,7 +12,6 @@ location: "Nanjing, China"
 * Proposed and proved the correlation between clustering tendency of training dataset and performance bias of neural network.
 * Leveraged Shrink Wrap modifier and OpenGL renderer in Blender to build an interpolation-based 3D model synthetic dataset.
 * Defined a metric to measure the clustering tendency of 3D model dataset based on silhouette score and affinity propagation.
-
   
   
   
@@ -20,7 +19,9 @@ location: "Nanjing, China"
   
   
   
+  
+  
 <p float="left">
-<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="400" height="1000" />
-<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="400" height="1000"/> 
+<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="250" height="1000" />
+<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="250" height="1000"/> 
 </p>
