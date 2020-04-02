@@ -22,6 +22,6 @@ location: "Nanjing, China"
   
   
 <p float="left">
-<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="250" height="1000" />
-<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="250" height="1000"/> 
+<img src="http://YefanZhou.github.io/images/eccv_2020_matrix_vis.png" width="350" height="2000" />
+<img src="http://YefanZhou.github.io/images/eccv_2020_pointcloud_vis.png" width="350" height="2000"/> 
 </p>
