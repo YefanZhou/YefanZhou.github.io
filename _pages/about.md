@@ -12,28 +12,26 @@ redirect_from:
 **Hi, welcome to my page!**
 <br/>
 <br/>
-I'm a fourth-year undergraduate student in Robotics at [Southeast University, China](https://www.seu.edu.cn).  
-I worked with [Prof. Ruzena Bajcsy](https://people.eecs.berkeley.edu/~bajcsy/) in the [Human-Assistive Robotic Technologies(HART)](http://hart.berkeley.edu) Laboratory in my junior year as a visiting student at the [University of California, Berkeley](https://www.berkeley.edu).
+My name is Yefan Zhou, I'm an incoming master student in EECS at UC Berkeley. 
 <br/> 
 <br/> 
-My research interest lies in the integration of machine vision with motion control, focusing on advanced control for dexterous manipulation.
+My research interest lies in 3D vision and dexterous manipulation.
 <br/> 
 <br/> 
 Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_4_1.pdf).
   
-  
-  
-  
-  
+
+
+
 Recent Activities
 ======
+* November 1st: Paper: *Multi-Fingered Grasp Pose Detection using Point Cloud* submitted to IEEE ICRA 2021.
 * April 2nd: I become an incoming EECS Master of Engineering student at UC Berkeley concentrated on Robotics and Embedded System Track.
 * March 5th: Paper: *Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks* submitted to IEEE ECCV 2020.
   
   
   
-  
-  
+
 Education
 ======
 * **B.Eng**, Sep 2016 – June 2020，@ Southeast University  
