@@ -44,6 +44,7 @@ Recent Activities
 * Feb 2021: One ***second-author*** paper submitted to [IEEE RA-L](https://www.ieee-ras.org/publications/ra-l) & [IROS 2021](https://www.iros2021.org/).
 * Nov 2020: One ***fourth-author*** paper submitted to [ICRA 2021](http://www.icra2021.org/).
 * Apr 2020: I become an incoming Master in EECS at UC Berkeley concentrated on Robotics and Embedded System Track.
+* Mar 2020: One ***first-author*** paper submitted to [ECCV 2020](https://eccv2020.eu/).
 
 ------
 
