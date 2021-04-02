@@ -13,6 +13,7 @@ redirect_from:
 <br/>
 <br/>
 My name is Yefan Zhou, I'm a Master's student in [Electrical Engineering and Computer Science at UC Berkeley](https://eecs.berkeley.edu/). Before starting my master program, I worked on research projects supervised by [Prof. Ruzena Bajcsy](https://www2.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html) and [Prof. Masayoshi Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/) at UC Berkeley. I obtained a Bachelor's degree at [Southeast University](https://www.seu.edu.cn/english/) supervised by [Prof. Luxi Yang](https://scholar.google.com.hk/citations?user=Bx58-p4AAAAJ&hl=en).
+  
 <br/>
 My research interest lies in 3D Vision and Robotic Grasping.
 <br/>
