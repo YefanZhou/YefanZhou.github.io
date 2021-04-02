@@ -34,7 +34,6 @@ Publication
   Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka  *(Under Review)*
 
 * ***Multi-Fingered Grasp Pose Detection using Point Cloud***.  
-
   Xinghao Zhu, Yongxiang Fan, Changhao Wang, **Yefan Zhou**, Shiyu Jin, Masayoshi Tomizuka  *(Under Review)*
 
 ------
