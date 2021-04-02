@@ -25,13 +25,13 @@ Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_4_1.pdf).
 Publication
 ======
 * ***Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks***  
-  <font size=1>**Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang  *(Under Review)*<font size=1>
+  <font size=2> **Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang  *(Under Review)* <font size=2>
 
 * ***Learn to Grasp with Less Supervision: A Data-Efficient Posterior Grasp Sampling Loss***  
-  <font size=1>Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka  *(Under Review)*<font size=1>
+  <font size=2> Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka  *(Under Review)*<font size=2>
 
 * ***Multi-Fingered Grasp Pose Detection using Point Cloud***.  
-  <font size=1>Xinghao Zhu, Yongxiang Fan, Changhao Wang, **Yefan Zhou**, Shiyu Jin, Masayoshi Tomizuka  *(Under Review)*<font size=1>
+  <font size=2> Xinghao Zhu, Yongxiang Fan, Changhao Wang, **Yefan Zhou**, Shiyu Jin, Masayoshi Tomizuka  *(Under Review)* <font size=2>
 
 ------
 
