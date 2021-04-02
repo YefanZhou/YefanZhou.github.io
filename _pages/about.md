@@ -27,7 +27,7 @@ Publication
 * ***Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks***  
   **Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang  *(Under Review)*
 
-* ***Learn  to  Grasp  with  Less  Supervision:  A  Data-Efficient  PosteriorGrasp  Sampling  Loss***  
+* ***Learn to Grasp with Less Supervision: A Data-Efficient Posterior Grasp Sampling Loss***  
   Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka  *(Under Review)*
 
 * ***Multi-Fingered Grasp Pose Detection using Point Cloud***.  
