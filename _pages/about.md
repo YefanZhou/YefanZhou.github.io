@@ -25,7 +25,7 @@ Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_4_1.pdf).
 Publication
 ======
 * ***Reconstruction or Recognition: Justifying Single-view 3D Reconstruction Networks***  
-  **Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang  *(Under Review)*
+  <font size=2>**Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang  *(Under Review)*<font size=2>
 
 * ***Learn to Grasp with Less Supervision: A Data-Efficient Posterior Grasp Sampling Loss***  
   Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka  *(Under Review)*
