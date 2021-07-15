@@ -32,7 +32,7 @@ Publication
   Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka  *(Under Review)*
 
 * ***Multi-Fingered Grasp Pose Detection using Point Cloud***  
-  Xinghao Zhu, Yongxiang Fan, Changhao Wang, **Yefan Zhou**, Shiyu Jin, Masayoshi Tomizuka  *(Under Review)* 
+  Xinghao Zhu, Yongxiang Fan, **Yefan Zhou**, Changhao Wang, Shiyu Jin, Masayoshi Tomizuka  *(Under Review)* 
 
 ------
 
@@ -40,9 +40,9 @@ Publication
 
 Recent Activities
 ======
+* Apr 2021, One ***third-author*** paper submitted to [IEEE RA-L](https://www.ieee-ras.org/publications/ra-l).
 * Mar 2021: One ***first-author*** paper submitted to [ICCV 2021](http://iccv2021.thecvf.com/home).
 * Feb 2021: One ***second-author*** paper submitted to [IEEE RA-L](https://www.ieee-ras.org/publications/ra-l) & [IROS 2021](https://www.iros2021.org/).
-* Nov 2020: One ***fourth-author*** paper submitted to [ICRA 2021](http://www.icra2021.org/).
 * Apr 2020: I become an incoming Master in EECS at UC Berkeley concentrated on Robotics and Embedded System Track.
 * Mar 2020: One ***first-author*** paper submitted to [ECCV 2020](https://eccv2020.eu/).
 
