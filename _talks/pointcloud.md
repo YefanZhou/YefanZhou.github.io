@@ -3,7 +3,7 @@ title: "3D Object Shape Reconstruction from RGB images"
 collection: talks
 type: "Research Assistant"
 permalink: /talks/pointcloud
-venue: "<br/> Mentor: &emsp; Yaoqing Yang, RISELab, UC Berkeley; <br/> Supervisor: &emsp;Prof. Luxi Yang, Information Science and Engineering Lab,  Southeast University"
+venue: "<br/> Mentor: &emsp; Yaoqing Yang, UC Berkeley; <br/> Supervisor: &emsp;Prof. Luxi Yang, Information Science and Engineering Lab,  Southeast University"
 date: 2019-09-05
 location: "Nanjing, China"
 ---
@@ -13,8 +13,6 @@ Recent works have shown that deep neural networks tend to perform recognition in
 * Proposed and proved the correlation between clustering tendency of training dataset and performance bias of neural network.
 * Leveraged Shrink Wrap modifier and OpenGL renderer in Blender to build an interpolation-based 3D model synthetic dataset.
 * Defined a metric to measure the clustering tendency of 3D model dataset based on silhouette score and affinity propagation.
-* [A paper under review](https://yefanzhou.github.io/publications/2009-10-01-paper-title-number-1/)
-  
   
   
 <!--[[PDF]](http://YefanZhou.github.io/files/reconstruction_or_recognition_justifying_single_view_3d_reconstruction_networks.pdf)-->
