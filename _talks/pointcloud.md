@@ -3,7 +3,7 @@ title: "Reconstruction or Recognition: Justifying Single-view 3D Reconstruction 
 collection: talks
 type: "Research Assistant"
 permalink: /talks/pointcloud
-venue: "<br/> Mentor: &emsp; Yaoqing Yang, UC Berkeley;
+venue: "<br/> Mentor: &emsp; Yaoqing Yang, UC Berkeley"
 date: 2020-03-05
 location: "Berkeley, CA"
 ---
