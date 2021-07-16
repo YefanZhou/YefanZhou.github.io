@@ -9,8 +9,7 @@ location: "Berkeley, CA"
 ---
 
 Recent work points out that most cutting-edge NNs rely primarily on recognition (classifying the images) rather than shape reconstruction. However, prior work fails to identify and quantify the conditions under which NNs prefer recognition to reconstruction and vice versa. In this work, we
-
-* Proposed and experimentally demonstrated that the behavior of Single-view 3D reconstruction Neural Networks (reconstruction or recognition) are contingent on the extent of dispersion or clustering of the training data
+* Proposed and experimentally demonstrated that the behavior of Single-view 3D reconstruction Neural Networks (reconstruction or recognition) are contingent on the extent of dispersion or clustering of the training data.
 * Proposed a new metric “Dispersion Score”, to measure how dispersed or “unclustered” the data is, as well as the tendency of NN towards reconstruction or recognition.
 * Proposed data augmentation methods to alleviate the bias of NNs towards recognition.
   
