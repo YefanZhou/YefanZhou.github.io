@@ -18,7 +18,7 @@ My name is Yefan Zhou, I'm a Master's student in [Electrical Engineering and Com
 My research interest lies in 3D Vision and Robotic Grasping.
 <br/>
 <br/>
-Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_4_1.pdf).
+Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_July_15_2021.pdf).
 
 ------
 
