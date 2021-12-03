@@ -29,13 +29,13 @@ Publication
 ======
 **[3DV 2021]** ***A Dataset-dispersion Perspective on Reconstruction versus Recognition in Single-view 3D Reconstruction Networks*** [[Arxiv]](https://arxiv.org/abs/2111.15158) [[Code]](https://github.com/YefanZhou/dispersion-score) [[Video]](https://recorder-v3.slideslive.com/?share=56386&s=b2b66c99-282f-4b1d-91db-1966c093a17d)  
 
-<sub>**Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang</sub>
+<sup>**Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang</sup>
 
 
 
 ***Learn to Grasp with Less Supervision: A Data-Efficient Posterior Grasp Sampling Loss*** [[Arxiv]](https://arxiv.org/abs/2110.01379)  
 
-<sub>Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka</sub>
+<sup>Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka</sup>
 
 ------
 
