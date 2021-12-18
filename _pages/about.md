@@ -17,7 +17,7 @@ My name is Yefan Zhou, I'm a Master's student in [Electrical Engineering and Com
 I obtained a Bachelor's degree at [Southeast University](https://www.seu.edu.cn/english/) supervised by [Prof. Luxi Yang](https://scholar.google.com.hk/citations?user=Bx58-p4AAAAJ&hl=en).
 
 <br/>
-My current research focues on model compression and robustness.
+My current research focuses on model compression and robustness.
 <br/>
 <br/>
 Here is my [Curriculum Vitae](https://YefanZhou.github.io/files/CV_July_15_2021.pdf).
