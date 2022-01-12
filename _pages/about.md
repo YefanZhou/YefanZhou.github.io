@@ -36,7 +36,7 @@ Publication
 ***Learn to Grasp with Less Supervision: A Data-Efficient Posterior Grasp Sampling Loss*** [[Arxiv]](https://arxiv.org/abs/2110.01379)  
 <sup>Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka</sup>
 
-***Multi-Fingered Grasp Pose Detection using Point Cloud***
+***Multi-Fingered Grasp Pose Detection using Point Cloud***  
 <sup>Xinghao Zhu, Yongxiang Fan, Changhao Wang, **Yefan Zhou**, Shiyu Jin, and Masayoshi Tomizuka</sup>
  
  
