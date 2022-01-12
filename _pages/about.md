@@ -17,7 +17,7 @@ My name is Yefan Zhou, I'm a Master's student in [Electrical Engineering and Com
 I obtained a Bachelor's degree at [Southeast University](https://www.seu.edu.cn/english/) supervised by [Prof. Luxi Yang](https://scholar.google.com.hk/citations?user=Bx58-p4AAAAJ&hl=en).
 
 <br/>
-My current research focues on model compression and efficient learning/inference.
+My current research focuses on model compression and efficient learning/inference.
 <br/>
 <br/>
 Here is my [Curriculum Vitae](https://github.com/YefanZhou/YefanZhou.github.io/blob/master/files/resume_yefan_Jan10.pdf).
@@ -31,13 +31,13 @@ Publication
 <sup>**Yefan Zhou**, Yiru Shen, Yujun Yan, Chen Feng, Yaoqing Yang</sup>
 
 ***ME-Prune: Highly Compressed and Robust Neural Networks via Matrix Entropy Based Channel Pruning*** [[Arxiv]](https://arxiv.org/abs/2110.01379)  
-<sup>Alex Zhao, Yaoqing Yang, Elicia Ye, Zhuang Liu, Xiangyu Yue, Vikram Shirsat, Yefan Zhou, Kurt Keutzer, Joseph Gonzalez, Ramchandran Kannan, Michael Mahoney</sup>
+<sup>Alex Zhao, Yaoqing Yang, Elicia Ye, Zhuang Liu, Xiangyu Yue, Vikram Shirsat, **Yefan Zhou**, Kurt Keutzer, Joseph Gonzalez, Ramchandran Kannan, Michael Mahoney</sup>
 
 ***Learn to Grasp with Less Supervision: A Data-Efficient Posterior Grasp Sampling Loss*** [[Arxiv]](https://arxiv.org/abs/2110.01379)  
 <sup>Xinghao Zhu, **Yefan Zhou**, Yongxiang Fan, Lingfeng Sun, Masayoshi Tomizuka</sup>
 
 ***Multi-Fingered Grasp Pose Detection using Point Cloud***
-<sup>Xinghao Zhu, Yongxiang Fan, Changhao Wang, Yefan Zhou, Shiyu Jin, and Masayoshi Tomizuka</sup>
+<sup>Xinghao Zhu, Yongxiang Fan, Changhao Wang, **Yefan Zhou**, Shiyu Jin, and Masayoshi Tomizuka</sup>
  
  
 
