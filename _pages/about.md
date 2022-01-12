@@ -20,7 +20,8 @@ I obtained a Bachelor's degree at [Southeast University](https://www.seu.edu.cn/
 My current research focuses on model compression and efficient learning/inference.
 <br/>
 <br/>
-Here is my [Curriculum Vitae](https://github.com/YefanZhou/YefanZhou.github.io/blob/master/files/resume_yefan_Jan10.pdf).
+
+[Resume](https://github.com/YefanZhou/YefanZhou.github.io/blob/master/files/resume_yefan_Jan10.pdf).
 
 ------
 
