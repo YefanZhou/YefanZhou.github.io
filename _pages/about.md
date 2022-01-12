@@ -21,7 +21,7 @@ My current research focuses on model compression and efficient learning/inferenc
 <br/>
 <br/>
 
-Here is my [Resume](https://github.com/YefanZhou/YefanZhou.github.io/blob/master/files/resume_yefan_Jan10.pdf)
+Here is my [Resume](https://YefanZhou.github.io/files/resume_yefan_Jan10.pdf)
 
 ------
 
