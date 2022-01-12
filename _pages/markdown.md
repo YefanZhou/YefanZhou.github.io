@@ -8,10 +8,12 @@ redirect_from:
 ---
 
 ## Robotics and Control:
-* EE 106B, Robotic Manipulation and Interaction, [Prof. Ruzena Bajcsy](https://www2.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html) (Grade: *A*)
+* EE 106B, Robotic Manipulation and Interaction, [Prof. Ruzena Bajcsy](https://www2.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html) (*A*)
 
-## Artificial Intelligence:
-* CS188, Introduction to Artificial Intelligence, [Prof. Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/), [Prof. Stuart Russell](https://people.eecs.berkeley.edu/~russell/) (Grade: *A*)
+## Machine Learning:
+* CS188, Introduction to Artificial Intelligence, [Prof. Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/), [Prof. Stuart Russell](https://people.eecs.berkeley.edu/~russell/) (*A*)
+* CS285, Deep Reinforcement Learning, [Prof. Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) (*A+*)
+* EECS227AT, Optimization Models in Engineering (Convex Optimization), [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) (*A*)
 
 ## Programming:
 * CS 61B, Data Structure, [Prof. Joshua Hug](https://www2.eecs.berkeley.edu/Faculty/Homepages/joshhug.html) (Grade: *A+*)
