@@ -12,7 +12,7 @@ redirect_from:
 **Hi, welcome to my page!**
 <br/>
 <br/>
-My name is Yefan Zhou, I'm a Master's student in [Electrical Engineering and Computer Science at UC Berkeley](https://eecs.berkeley.edu/). I am a ML graduate student researcher in [RISELAB](https://rise.cs.berkeley.edu/) supervised by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/).
+I'm a Master's student in [Electrical Engineering and Computer Science at UC Berkeley](https://eecs.berkeley.edu/). I am a ML graduate student researcher in [RISELAB](https://rise.cs.berkeley.edu/) supervised by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/).
 
 I obtained a Bachelor's degree at [Southeast University](https://www.seu.edu.cn/english/) supervised by [Prof. Luxi Yang](https://scholar.google.com.hk/citations?user=Bx58-p4AAAAJ&hl=en).
 
