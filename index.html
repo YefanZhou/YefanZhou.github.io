@@ -103,10 +103,10 @@
               <a href="https://recorder-v3.slideslive.com/?share=87192&s=14ff4069-14ea-4f19-bf8b-368a2db26dfd">Video</a> 
               <p></p>
               <p>
-                Most deep neural networks have complex multilayer structures, often seen as a barrier to transparency. 
-                In our research, we reveal a significant insight: these layers are not uniformly well-trained. 
-                We introduce a new training method that utilizes "model diagnostic" tool to identify and address underperforming layers, 
-                and enhance the overall network quality.
+                <font color="#9900FF"> [NN optimizer, Layer quality analysis] </font>
+                <br>
+                We introduce a new learning rate scheduler <strong>TempBalance</strong> that analyzes the layer-wise training quality via "diagnosis" and dynamically adjusts learning rates per layer.
+                This method quantifies and utilizes the heavy-tailed structure of the weight matrix eigenspectrum.
               </p>
             </td>
           </tr>
@@ -131,6 +131,9 @@
               <br>
               <p></p>
               <p>
+                <font color="#9900FF"> [LLM pruning, Layer quality analysis] </font>
+                <br>
+                We introduce a LLM pruning method <strong>AlphaPruning</strong>, that assigns the layer-wise sparsities to pre-trained LLM based on weight-analysis based metrics.
               </p>
             </td>
           </tr>
@@ -159,7 +162,10 @@
               <a href="https://arxiv.org/abs/2407.12996">Paper</a> /
               <p></p>
               <p>
-                We discover a trade-off between sharpness and diversity: minimizing the sharpness in the loss landscape tends to diminish the diversity of members within the ensemble, adversely affecting the ensemble's improvement. We introduce a new ensemble training method called SharpBalance to address it.
+                <font color="#9900FF"> [Ensembling, Loss landscape analysis] </font>
+                <br>
+                We discover sharpness-diversity trade-off: minimizing the sharpness in the loss landscape tends to diminish the diversity of members within the ensemble, adversely affecting the ensemble's improvement.  
+                We introduce a new ensemble training method called SharpBalance to address it.
               </p>
             </td>
           </tr>
@@ -186,6 +192,10 @@
               <a href="https://www.youtube.com/watch?v=9S-MHSiune0&t=18s">Video</a>
               <p></p>
               <p>
+                <font color="#9900FF"> [(Post-training) model diagnosis, Loss landscape analysis, Scaling law, Hyperparameter tuning] </font>
+                <br>
+                This work studies how to predict the source of model failure from a set of failure modes (such as a wrong hyperparameter, inadequate model size) without knowing the training configuration of the pre-trained NN.
+                We propose a diagnosis method called MD tree based on loss landscape metrics and demonstrate its advantage over classical validation-based approaches.
               </p>
             </td>
           </tr>
@@ -214,6 +224,8 @@
               <a href="https://slideslive.com/39002670/a-threeregime-model-of-network-pruning?locale=cs">Video</a> 
               <p></p>
               <p>
+                <font color="#9900FF"> [NN pruning, Loss landscape analysis] </font>
+                <br>
                 The study identifies a transition phenomenon in neural network pruning, where the effect of increasing the temperature-like parameter (e.g. training epochs) depends on the value of the load-like parameter (e.g. pruning ratio), leading to different pruning outcomes. 
                 The findings are then applied to three practical scenarios, 
                 including optimizing hyperparameters for improved pruning and selecting the most suitable model for pruning.
@@ -244,6 +256,8 @@
               <a href="https://slideslive.com/38972241/">Video</a>
               <p></p>
               <p>
+                <font color="#9900FF"> [Dataset diagnosis, 3D reconstruction] </font>
+                <br>
                 A SVR model can be disposed towards recognition (classification-based) or reconstruction depending on how dispersed the training data becomes.<br>
                 We propose "dispersion score", which is a data-driven metric used to measure the tendency of SVR models to perform recognition or reconstruction. 
                 It can also be used to diagnose problems from the training data and guide the design of data augmentation schemes.
@@ -261,14 +275,14 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <!--   <img src='images/mlgsl.png' width="320"></div>--> 
+               <img src='images/emnlp2024.png' width="320"></div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <papertitle>	Model Balancing Helps Low-data Training and Fine-tuning</papertitle>
                 <br>  
               Zihang Liu,
               Yuanzhe Hu,
-              Tianyu Pang
+              Tianyu Pang, 
               <strong>Yefan Zhou</strong>,
               Pu Ren,
               Yaoqing Yang
@@ -276,7 +290,11 @@
               <em>Empirical Methods in Natural Language Processing (EMNLP main)</em>, 2024
               <br>
               <br>
-              <p></p>
+              <p>
+                <font color="#9900FF"> [LLM fine-tuning, Layer quality analysis] </font>
+                <br>
+                We show that optimizer <strong>TempBalance</strong> effectively improves LLM fine-tuning, especially in the cases of low downstream data.
+              </p>
               <p>
               </p>
             </td>
@@ -285,7 +303,7 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <!--   <img src='images/mlgsl.png' width="320"></div>--> 
+              <img src='images/alpha_expert.png' width="320"></div> 
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <papertitle>AlphaExpert: Assigning LoRA Experts Based on Layer Training Quality</papertitle>
@@ -301,7 +319,11 @@
               <em>Empirical Methods in Natural Language Processing (EMNLP main)</em>, 2024
               <br>
               <br>
-              <p></p>
+              <p>
+                <font color="#9900FF"> [LLM mixture-of-expert, Layer quality analysis] </font>
+                <br>
+                We introduced a new LoRA-MoE fine-tuning approach called <strong>AlphaExpert</strong>, which utilizes the layer-wise weight analysis to assign expert numbers.
+              </p>
               <p>
               </p>
             </td>
