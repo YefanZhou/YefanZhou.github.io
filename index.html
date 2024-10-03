@@ -69,7 +69,12 @@
               <p>
                 I'm interested in improving efficiency and transparency of machine learning models. 
                 My current research is focused on model diagnosis, utilizing <a href="https://sites.google.com/view/hidimlearning23/home?authuser=0">high-dimension features</a> such as <a href="https://www.youtube.com/watch?v=aq3oA6jSGro&t=11s">loss landscapes</a>, <a href="https://sites.google.com/view/heavy-tails-ml-2023">weight matrix analysis</a>. 
-                This research contributes to practical ML development, including neural network training, model compression and hyperparameter tuning.
+                This research contributes to 
+                <ul>
+                  <li>Neural network optimization (<a href="#tb">[TempBalance]</a>), LLM fine-tuning (<a href="#tb_on_finetune">[TempBalance_v2]</a>), LLM MoE (<a href="#alpha_expert">[AlphaExpert]</a>)</li>
+                  <li>Model pruning (<a href="#three">[ThreeRegime_Prune]</a>), LLM pruning (<a href="#alphaprune">[AlphaPruning]</a>)</li>
+                  <li>Post-training diagnosis and hyperparameter tuning (<a href="#mdtree">[MD_tree]</a>)</li>
+                </ul>
               </p>
             </td>
           </tr>
@@ -86,7 +91,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2312.00359">
-                <papertitle>Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training</papertitle>
+                <papertitle id="tb">Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training</papertitle>
               </a>
               <br>
               {<strong>Yefan Zhou*</strong>,
@@ -117,7 +122,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a>
-                <papertitle>AlphaPruning: Using Heavy-Tailed Self Regularization Theory for Improved Layer-wise Pruning of Large Language Models</papertitle>
+                <papertitle id="alphaprune">AlphaPruning: Using Heavy-Tailed Self Regularization Theory for Improved Layer-wise Pruning of Large Language Models</papertitle>
               </a>
               <br>
               {Haiquan Lu*,
@@ -176,7 +181,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a>
-                <papertitle>MD tree: a model-diagnostic tree grown on loss landscape</papertitle>
+                <papertitle id="mdtree">MD tree: a model-diagnostic tree grown on loss landscape</papertitle>
               </a>
               <br>
               {<strong>Yefan Zhou*</strong>,
@@ -209,7 +214,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2305.18383">
-                <papertitle>A Three-regime model of Network Pruning</papertitle>
+                <papertitle id='three'>A Three-regime model of Network Pruning</papertitle>
               </a>
               <br>
               <strong>Yefan Zhou</strong>,
@@ -278,7 +283,7 @@
                <img src='images/emnlp2024.png' width="320"></div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>	Model Balancing Helps Low-data Training and Fine-tuning</papertitle>
+                <papertitle id="tb_on_finetune">	Model Balancing Helps Low-data Training and Fine-tuning</papertitle>
                 <br>  
               Zihang Liu,
               Yuanzhe Hu,
@@ -306,7 +311,7 @@
               <img src='images/alpha_expert.png' width="320"></div> 
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>AlphaExpert: Assigning LoRA Experts Based on Layer Training Quality</papertitle>
+                <papertitle id="alpha_expert">AlphaExpert: Assigning LoRA Experts Based on Layer Training Quality</papertitle>
                 <br>  
               Peijun Qing,
               Chongyang Gao,
