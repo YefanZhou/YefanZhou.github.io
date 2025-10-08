@@ -1,219 +1,362 @@
 <!DOCTYPE HTML>
-<html lang="en"><head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TF5SPSGGYM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  gtag('config', 'G-TF5SPSGGYM');
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZFRNCT6W3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-EZFRNCT6W3');
-</script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Yefan Zhou</title>
-
+  <title>Yefan Zhou's Personal Website</title>
+  
   <meta name="author" content="Yefan Zhou">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <!-- Header Navigation -->
+  <header class="header-nav">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/dartmouth_logo.jpg" alt="Dart Logo">
+        Yefan Zhou
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#news">News</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#honors-awards">Awards</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#service">Service</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-content">
+  <table style="width:100%;max-width:1100px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom: -10px;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:75%;vertical-align:left">
-              <p style="text-align:center">
-                <name>Yefan Zhou</name>
-              </p>
-              <p class="intro">Hi, I'm Yefan. I am a CS PhD candidate (2023- ) at Dartmouth College.<br>
-                I earned my <a href="https://eecs.berkeley.edu/">Master's degree in EECS</a> at UC Berkeley.<br>
-              </br>
-              
-                <br>
-              </p>
-              <p style="text-align:center">
-                <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TAeVaicAAAAJ">Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/YefanZhou"><i class="fa fa-github" style="font-size:24px"></i></a> &nbsp/&nbsp
-                <a href="https://twitter.com/LiamZhou98"><i class="fa fa-twitter" style="font-size:24px"></i></a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/yefan-zhou-b430541b1/">Linkedin</a> &nbsp/&nbsp
-                <a href="mailto:yefan0726@berkeley.edu">Email</a> &nbsp/&nbsp
-                <a href="https://drive.google.com/file/d/1ABBTFaDrBNxPff2GiD2IHCgNKnPlJ6MS/view?usp=sharing">Resume</a>
-              </p>
-            </td>
-           <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/profile.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile-circle.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I'm interested in improving efficiency and transparency of machine learning models. 
-                My current research is focused on model diagnosis, utilizing <a href="https://sites.google.com/view/hidimlearning23/home?authuser=0">high-dimension features</a> such as <a href="https://www.youtube.com/watch?v=aq3oA6jSGro&t=11s">loss landscapes</a>, <a href="https://sites.google.com/view/heavy-tails-ml-2023">weight matrix analysis</a>. 
-                This research contributes to 
-                <ul>
-                  <li>Neural network optimization (<a href="#tb">[TempBalance]</a>), LLM fine-tuning (<a href="#tb_on_finetune">[TempBalance_v2]</a>), Ensembling (<a href="#sharpb">[SharpBalance]</a>), LLM MoE (<a href="#alpha_expert">[AlphaExpert]</a>)</li>
-                  <li>LLM pruning (<a href="#alphaprune">[AlphaPruning]</a>), Model pruning (<a href="#three">[ThreeRegime_Prune]</a>)</li>
-                  <li>Post-training diagnosis and hyperparameter tuning (<a href="#mdtree">[MD_tree]</a>)</li>
-                </ul>
-              </p>
-            </td>
-          </tr>
-        
-
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
-          <heading>Selected first-author paper</heading>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/tempbalance.png' width="300"></div>
-            </td>
+          <tr style="padding:0px" id="home">
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2312.00359">
-                <papertitle id="tb">Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training</papertitle>
-              </a>
-              <br>
+              <div style="position: relative;">
+                <!--
+                <a href="images/profile.jpg" style="position: absolute; top: 0; right: 0; z-index: 1;">
+                  <img style="width:195px;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink">
+                </a>
+
+                <div style="margin-top: 10px; text-align: center;">
+                  <a href="https://github.com/yefanzhou" style="margin:0 4px;">
+                    <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#181717"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  </a>
+                  <a href="https://scholar.google.com/citations?user=lmgRCxkAAAAJ" style="margin:0 4px;">
+                    <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#4285F4"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+                  </a>
+                  <a href="https://x.com/yefanzhou" style="margin:0 4px;">
+                    <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#000000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  </a>
+                  <a href="https://www.linkedin.com/in/yefan-zhou" style="margin:0 4px;">
+                    <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  </a>
+                </div>-->
+
+                <div style="position: absolute; top: 0; right: 0; z-index: 1; width: 195px;">
+                  <a href="images/profile.jpg">
+                    <img style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink">
+                  </a>
+                  
+                  <div style="margin-top: 10px; text-align: center;">
+                    <a href="https://drive.google.com/file/d/1ABBTFaDrBNxPff2GiD2IHCgNKnPlJ6MS/view?usp=sharing" style="margin:0 4px;">
+                      <svg style="width:28px;height:28px;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Paper/document outline -->
+                        <path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" 
+                              fill="white" stroke="black" stroke-width="1.5"/>
+                        <!-- CV letters -->
+                        <text x="7" y="16" font-size="8" font-weight="bold" fill="black">CV</text>
+                      </svg>
+                    </a>
+                    <a href="https://github.com/yefanzhou" style="margin:0 4px;">
+                      <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#181717"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TAeVaicAAAAJ" style="margin:0 4px;">
+                      <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#4285F4"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+                    </a>
+                    <a href="https://x.com/LiamZhou98" style="margin:0 4px;">
+                      <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#000000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yefan-zhou" style="margin:0 4px;">
+                      <svg style="width:28px;height:28px;" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                  </div>
+                </div>
+                <!-- END REPLACE SECTION -->
+                
+                <!--<div style="margin-right: 220px;">
+                  <p style="margin-bottom: 5px;margin-top: 50px;"> -->
+
+
+
+                <div style="margin-right: 220px;">
+                  <p style="margin-bottom: 5px;margin-top: 50px;">
+                     I am a CS PhD candidate (2023-) at Dartmouth College.I earned my <a href="https://eecs.berkeley.edu/">Master's degree in EECS</a> at UC Berkeley. <br>
+                     Previously, I interned at <a href="https://research.ibm.com/topics/ai-for-code"><strong>Salesforce AI Research</strong>.</a><br>
+                  </p>
+                  <p style="margin-top: 5px;">
+                  </p>
+                    <strong>Research:</strong>&nbsp; My research focuses on developing evaluation metrics and systems for ML models, spanning three dimensions: training quality, output reliability and hyperparameter.
+                    This research contributes to 
+                    <ul>
+                      <li><strong>Efficient training</strong>:&nbsp; LLM fine-tuning [<a href="#tb">3</a>, <a href="#tb_on_finetune">8</a>], hyperparameter optimization [<a href="#mdtree">6</a>]</li>
+                      <li><strong>Auto-evaluation</strong>:&nbsp; LLM verification for reasoning [<a href="#verify">1</a>]</li>
+                      <li><strong>Inference optimization</strong>:&nbsp; pruning [<a href="#alphaprune">4</a>, <a href="#three">7</a>], ensembling [<a href="#sharpb">5</a>], parallel decoding [<a href="#dlm">2</a>] </li>
+                    </ul>
+                  </p>
+                </div>
+                
+              </div>
+              
+              <!--<div class="prospective-students">
+                <p>
+                  🎯 &nbsp;&nbsp;I am actively looking for students to join my research group @ UCLA CS. Solid <strong><i>coding skills</i></strong> and experiences in <strong><i>large language models (pre-/post-training or agentic systems), program analysis and verification, or security</i></strong> are strongly preferred.
+                </p>
+                <p>
+                  🤝 &nbsp;&nbsp; If you are interested in working with me, drop me an <strong><a href="mailto:y.robin.ding@gmail.com">email</a></strong> with (1) your CV and (2) a brief introduction of your research interests and background.
+                </p>
+              </div>
+            -->
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom: -20px; margin-top: -20px;"><tbody>
+            <tr id="news">
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2 class="section-heading">News</h2>
+              <p style="margin-top: 20px;"> 
+              <!-- <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#128227;</span> May. 2025: </strong> I gave the invited talk <a href="https://www.youtube.com/watch?v=obivLubYSnc">"From Code Generation Towards Software Engineering: Advancing Code Intelligence w/ Language Models"</a> <strong>@</strong> <strong><em style="font-weight:bold;color:rgb(65, 0, 125);">UWashington CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(39, 116, 174);">UCLA CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(196, 18, 48);">CMU SCS/S3D</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(0, 45, 114);">Johns Hopkins CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(179, 163, 105);">Georgia Tech SCS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(239, 124, 0);">NUS CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(0, 105, 62);">Dartmouth CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(153, 0, 0);">Stony Brook CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(232, 117, 0);">UT Dallas CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(233, 140, 0);">UC Santa Barbara CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(227, 25, 51);">UMaryland CS</em></strong></span>.
+              </p>-->
+              
+              <!--<p style="margin-top: -10px;">
+              <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#11088;</span> Sep. 2024: </strong> "SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning" got accepted by <a href="https://neurips.cc/"><strong>NeurIPS 2024</strong></a>.</span>
+              </p>-->
+              <p style="margin-top: -10px;">
+                <strong><img src="images/sf.jpg" alt="SF Logo" style="width:20px; vertical-align:middle; margin-right:3px;"> Jun 2025 - Sep 2025: </strong> I joined <a href="https://www.salesforceairesearch.com/"><strong>Salesforce AI Research</strong></a> as a Research Intern, check out our work on <a href="https://yefanzhou.github.io/llm-verify-dynamic/">auto-evaluation</a>.</span>
+              </p>
+              <p style="margin-top: -10px;">
+                <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#128227;</span> Aug 2024: </strong> I passed the PhD qualification exam!
+              </p> 
+              <!-- <p style="margin-top: -4px;">
+                <strong>Jan. 2024: </strong> "CYCLE: Learning to Self-Refine Code Generation" got accepted by <a href="https://2024.splashcon.org/track/splash-2024-oopsla"><strong>OOPSLA 2024</strong></a></span>.
+              </p>
+              <p style="margin-top: -5px;">
+                <strong>Jan. 2024: </strong> "Beyond Accuracy: Evaluating Self-Consistency of Code Large Language Models with IdentityChain" got accepted by <a href="https://iclr.cc/"><strong>ICLR 2024</strong></a>.</span>
+              </p>
+              <p style="margin-top: -4px;">
+                <strong>Dec. 2023: </strong> "Deep Learning Based Vulnerability Detection: Are We There Yet" got <a href="https://www.computer.org/publications/best-paper-award-winners" style="font-weight:bold;color:rgb(184, 34, 34);"><strong>🏆 IEEE TSE Best Paper Award Runner-up</strong></a></span>.
+              </p>
+              <p style="margin-top: -4px;">
+                <strong>Sep. 2023: </strong> Our Datasets and Benchmarks paper, CrossCodeEval, got accepted by <a href="https://nips.cc/Conferences/2023/CallForDatasetsBenchmarks"><strong>NeurIPS 2023</strong></a></span>.
+              </p>
+              <p style="margin-top: -4px;">
+                <strong>July 2023: </strong> CONCORD got <a href="https://2023.issta.org/details/issta-2023-technical-papers/2/CONCORD-Clone-Aware-Contrastive-Learning-for-Source-Code" style="font-weight:bold;color:rgb(184, 34, 34);"><strong>🏆 ACM SIGSOFT Distinguished Paper Award</strong></a>.
+              </p> -->
+            </td>
+          </tr>
+        </tbody></table>
+
+       
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr id="publications">
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2 class="section-heading">Recent Publications </h2>
+              <p style="margin-top: 10px; font-style: italic;">* indicates equal contribution</p>
+            </td>
+          </tr>
+        </tbody></table>
+      
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-bottom: 30px;"><tbody>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
+              <img src='images/v_in_v.png' width="250">
+              <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[1]</span>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2509.17995">
+              <papertitle id="verify">Variation in Verification: Understanding Verification Dynamics in Large Language Models</papertitle>
+            </a>
+            <br>
+              <strong>Yefan Zhou</strong>,
+              Austin Xu,
+              Yilun Zhou,
+              Janvijay Singh,
+              Jiang Gui,
+              Shafiq Joty
+            <br>
+            <p style="margin-top: 5px; margin-bottom: 0px;">
+            </p>
+            <em><strong>Preprint</em></strong>
+            <br>
+            <a href="https://arxiv.org/abs/2509.17995">Paper</a> /
+            <a href="https://yefanzhou.github.io/llm-verify-dynamic/">Project</a> /
+            <a href="https://x.com/CaimingXiong/status/1970530174178636195">Twitter</a> 
+            <p>
+              <font color="#9900FF"> [auto-evaluation, judge for reasoning, test-time scaling] </font>
+            </p>
+          </td>
+        </tr>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
+              <img src='images/dlm.png' width="250">
+              <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[2]</span>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2508.19982">
+              <papertitle id="dlm">Diffusion Language Models Know the Answer Before Decoding</papertitle>
+            </a>
+            <br>
+              Pengxiang Li</strong>,
+              <strong>Yefan Zhou</strong>,
+              Dilxat Muhtar,
+              Lu Yin,
+              Shilin Yan,
+              Li Shen,
+              Yi Liang,<br>
+              Soroush Vosoughi,
+              Shiwei Liu
+            <br>
+            <p style="margin-top: 5px; margin-bottom: 0px;">
+            </p>
+            <em><strong>Preprint</em></strong>
+            <br>
+            <a href="https://arxiv.org/abs/2509.17995">Paper</a> /
+            <a href="https://yefanzhou.github.io/llm-verify-dynamic/">Project</a> /
+            <a href="https://x.com/CaimingXiong/status/1970530174178636195">Twitter</a> 
+            <p>
+              <font color="#9900FF"> [efficient inference, parallel decoding, DLM] </font>
+            </p>
+          </td>
+        </tr>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
+              <img src='images/tempbalance.png' width="250">
+              <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[3]</span>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2312.00359">
+              <papertitle id="tb">Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training</papertitle>
+            </a>
+            <br>
               {<strong>Yefan Zhou*</strong>,
               Tianyu Pang*},
               Keqin Liu,
               Charles H. Martin,
-              <a href="https://www.stat.berkeley.edu/~mmahoney/">Michael Mahoney</a>,
-              <a href="https://sites.google.com/site/yangyaoqingcmu/">Yaoqing Yang</a>,
-              <br>
-              <em><strong>NeurIPS</em> 2023</strong> <font color="#FF0019">Spotlight</font> 
-              <br>
-              <a href="https://arxiv.org/abs/2312.00359">Paper</a> /
-              <a href="https://github.com/YefanZhou/TempBalance">Code</a> /
-              <a href="https://recorder-v3.slideslive.com/?share=87192&s=14ff4069-14ea-4f19-bf8b-368a2db26dfd">Video</a> 
-              <p></p>
-              <p>
-                <font color="#9900FF"> [NN optimizer, Efficient training, Layer quality analysis] </font>
-                <br>
-                We introduce a new learning rate scheduler <strong>TempBalance</strong> that analyzes the layer-wise training quality via "diagnosis" and dynamically adjusts learning rates per layer.
-                This method quantifies and utilizes the heavy-tailed structure of the weight matrix eigenspectrum.
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/alphaprune.png' width="300"></div>
+              Michael Mahoney,
+              Yaoqing Yang
+            <br>
+            <p style="margin-top: 5px; margin-bottom: 0px;">
+            </p>
+            <em><strong>NeurIPS</em> 2023</strong> <font color="#FF0019">Spotlight</font> 
+            <br>
+            <a href="https://arxiv.org/abs/2312.00359">Paper</a> /
+            <a href="https://github.com/YefanZhou/TempBalance">Code</a> /
+            <a href="https://recorder-v3.slideslive.com/?share=87192&s=14ff4069-14ea-4f19-bf8b-368a2db26dfd">Video</a> 
+            <p>
+              <font color="#9900FF"> [efficient training, NN optimizer, weight/layer analysis] </font>
+            </p>
+          </td>
+        </tr>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
+                <img src='images/alphaprune.png' width="250">
+                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[4]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a>
+              <a href="https://arxiv.org/abs/2410.10912">
                 <papertitle id="alphaprune">AlphaPruning: Using Heavy-Tailed Self Regularization Theory for Improved Layer-wise Pruning of Large Language Models</papertitle>
               </a>
-              <br>
+              <br>  
               {Haiquan Lu*,
-              <strong>Yefan Zhou*</strong>},
-              Shiwei Liu,
-              Zhangyang Wang,
-              Michael W. Mahoney,
-              Yaoqing Yang
+                <strong>Yefan Zhou*</strong>},
+                Shiwei Liu,
+                Zhangyang Wang,
+                Michael W. Mahoney,
+                Yaoqing Yang
               <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
               <em><strong>NeurIPS</em> 2024</strong>
               <br>
               <a href="https://arxiv.org/abs/2410.10912">Paper</a> /
-              <a href="https://github.com/haiquanlu/AlphaPruning">Code</a> /
-              <p></p>
+              <a href="https://github.com/haiquanlu/AlphaPruning">Code</a> 
               <p>
-                <font color="#9900FF"> [LLM pruning, Efficient inference] </font>
-                <br>
-                We introduce a LLM pruning method <strong>AlphaPruning</strong>, that assigns the layer-wise sparsities to pre-trained LLM based on weight-analysis based metrics.
+                <font color="#9900FF"> [efficient inference, LLM pruning, weight/layer analysis] </font>
               </p>
             </td>
           </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/sharpb.png' width="300"></div>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
+                <img src='images/sharpb.png' width="250">
+                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[5]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2407.12996">
-                <papertitle id='sharpb'>Sharpness-diversity tradeoff: improving flat ensembles with SharpBalance</papertitle>
-              </a> 
+                <papertitle id="sharpb">Sharpness-diversity tradeoff: improving flat ensembles with SharpBalance</papertitle>
+              </a>
               <br>
               {Haiquan Lu*, 
-              Xiaotian Liu*, 
-              <strong>Yefan Zhou</strong>*, 
-              Qunli Li*}, 
-              Kurt Keutzer, 
-              Michael W. Mahoney, 
-              Yujun Yan, 
-              Huanrui Yang, 
-              Yaoqing Yang
+                Xiaotian Liu*, 
+                <strong>Yefan Zhou</strong>*, 
+                Qunli Li*}, 
+                Kurt Keutzer, 
+                Michael W. Mahoney, 
+                Yujun Yan, 
+                Huanrui Yang, 
+                Yaoqing Yang
               <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
               <em><strong>NeurIPS</em> 2024</strong>
               <br>
               <a href="https://arxiv.org/abs/2407.12996">Paper</a> /
-              <a href="https://github.com/haiquanlu/SharpBalance">Code</a> /
-              <p></p>
+              <a href="https://github.com/haiquanlu/SharpBalance">Code</a> 
               <p>
-                <font color="#9900FF"> [Ensembling, Out-of-distribution, Loss landscape analysis] </font>
-                <br>
-                We discover sharpness-diversity trade-off: minimizing the sharpness in the loss landscape tends to diminish the diversity of members within the ensemble, adversely affecting the ensemble's improvement.  
-                We introduce a new ensemble training method called SharpBalance to address it.
+                <font color="#9900FF"> [Ensembling, Data selection, OOD] </font>
               </p>
+              <br>
             </td>
           </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/md_tree.png' width="300"></div>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
+                <img src='images/md_tree.png' width="250">
+                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[6]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a>
+              <a href="https://arxiv.org/abs/2406.16988">
                 <papertitle id="mdtree">MD tree: a model-diagnostic tree grown on loss landscape</papertitle>
               </a>
               <br>
               {<strong>Yefan Zhou*</strong>,
-              Jianlong Chen*},
-              Qinxue Cao,
-              Konstantin Schürholt,
-              Yaoqing Yang,
+                Jianlong Chen*},
+                Qinxue Cao,
+                Konstantin Schürholt,
+                Yaoqing Yang
               <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
               <em><strong>ICML</em> 2024</strong>
               <br>
               <a href="https://arxiv.org/abs/2406.16988">Paper</a> /
               <a href="https://github.com/YefanZhou/ModelDiagnosis">Code</a> /
               <a href="https://www.youtube.com/watch?v=9S-MHSiune0&t=18s">Video</a>
-              <p></p>
               <p>
-                <font color="#9900FF"> [(Post-training) model diagnosis, Model selection, Scaling law, Hyperparameter tuning] </font>
-                <br>
-                This work studies how to predict the source of model failure from a set of failure modes (such as a wrong hyperparameter, inadequate model size) without knowing the training configuration of the pre-trained NN.
-                We propose a diagnosis method called MD tree based on loss landscape metrics and demonstrate its advantage over classical validation-based approaches.
+                <font color="#9900FF"> [Scaling law, Hyperparameter tuning for training] </font>
               </p>
+              <br>
             </td>
           </tr>
-
-          
-
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/overview_sharp.png' width="300"></div>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
+                <img src='images/overview_sharp.png' width="250">
+                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[7]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2305.18383">
@@ -221,103 +364,61 @@
               </a>
               <br>
               <strong>Yefan Zhou</strong>,
-              <a href="https://sites.google.com/site/yangyaoqingcmu/">Yaoqing Yang</a>,
-              <a href="https://arinchang.github.io/">Arin Chang</a>,
-              <a href="https://www.stat.berkeley.edu/~mmahoney/">Michael Mahoney</a>
+              Yaoqing Yang,
+              Arin Chang,
+              Michael Mahoney
               <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
               <em><strong>ICML</em> 2023</strong>
               <br>
               <a href="https://proceedings.mlr.press/v202/zhou23p.html">Paper</a> /
               <a href="https://github.com/YefanZhou/ThreeRegimePruning">Code</a> /
               <a href="https://slideslive.com/39002670/a-threeregime-model-of-network-pruning?locale=cs">Video</a> 
-              <p></p>
               <p>
-                <font color="#9900FF"> [NN pruning, Model selection, Losslandscape analysis] </font>
-                <br>
-                The study identifies a transition phenomenon in neural network pruning, where the effect of increasing the temperature-like parameter (e.g. training epochs) depends on the value of the load-like parameter (e.g. pruning ratio), leading to different pruning outcomes. 
-                The findings are then applied to three practical scenarios, 
-                including optimizing hyperparameters for improved pruning and selecting the most suitable model for pruning.
+                <font color="#9900FF"> [NN pruning, efficient inference] </font>
               </p>
+              <br>
             </td>
           </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/3d_ds.png' width="300"></div>
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
+                <img src='images/emnlp2024.png' width="250">
+                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[8]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2111.15158">
-                <papertitle>A Dataset-dispersion Perspective on Reconstruction versus Recognition in Single-view 3D Reconstruction Networks</papertitle>
+              <a href="https://arxiv.org/pdf/2410.12178">
+                <papertitle id="tb_on_finetune">Model Balancing Helps Low-data Training and Fine-tuning</papertitle>
               </a>
               <br>
-              <strong>Yefan Zhou</strong>,
-              <a href="https://scholar.google.com/citations?user=-_Hy9z0AAAAJ&hl=en">Yiru Shen</a>,
-              <a href="https://people.eecs.berkeley.edu/~wguo/">Yujun Yan</a>,
-              <a href="https://engineering.nyu.edu/faculty/chen-feng">Chen Feng</a>,
-              <a href="https://sites.google.com/site/yangyaoqingcmu/">Yaoqing Yang</a>
-              <br>
-              <em>3DV</em> 2021
-              <br>
-              <a href="https://arxiv.org/abs/2111.15158">arXiv</a> /
-              <a href="https://github.com/YefanZhou/dispersion-score">Github</a> /
-              <a href="https://3dv2021.surrey.ac.uk/accepted-papers/">3DV 2021</a> /
-              <a href="https://slideslive.com/38972241/">Video</a>
-              <p></p>
-              <p>
-                <font color="#9900FF"> [Dataset diagnosis, 3D reconstruction] </font>
-                <br>
-                A SVR model can be disposed towards recognition (classification-based) or reconstruction depending on how dispersed the training data becomes.<br>
-                We propose "dispersion score", which is a data-driven metric used to measure the tendency of SVR models to perform recognition or reconstruction. 
-                It can also be used to diagnose problems from the training data and guide the design of data augmentation schemes.
-              </p>
-            </td>
-          </tr>
-          
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
-          <heading>Collaborating paper</heading>
-
-
-
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-               <img src='images/emnlp2024.png' width="320"></div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle id="tb_on_finetune">	Model Balancing Helps Low-data Training and Fine-tuning</papertitle>
-                <br>  
               Zihang Liu,
               Yuanzhe Hu,
-              Tianyu Pang, 
+              Tianyu Pang,
               <strong>Yefan Zhou</strong>,
               Pu Ren,
               Yaoqing Yang
-              <br> 
-              <em><strong>EMNLP main</strong> <font color="#FF0019">Oral</font></em> 2024
+              <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
+              <em><strong>EMNLP main</strong></em> 2024 <font color="#FF0019">Oral</font>
               <br>
               <a href="https://arxiv.org/pdf/2410.12178">Paper</a> /
-              <a href="https://github.com/ZihangHLiu/ModelBalancing">Code</a> /
-              <br>
+              <a href="https://github.com/ZihangHLiu/ModelBalancing">Code</a>
               <p>
                 <font color="#9900FF"> [LLM fine-tuning, Layer quality analysis] </font>
-                <br>
-                We show that optimizer <a href="#tb">TempBalance</a> effectively improves LLM fine-tuning, especially in the cases of low downstream data.
               </p>
-              <p>
-              </p>
+              <br>
             </td>
           </tr>
-          
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/alpha_expert.png' width="320"></div> 
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle">
+                <img src='images/alpha_expert.png' width="250">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2410.10054">
                 <papertitle id="alpha_expert">AlphaExpert: Assigning LoRA Experts Based on Layer Training Quality</papertitle>
-                <br>  
+              </a>
+              <br>
               Peijun Qing,
               Chongyang Gao,
               <strong>Yefan Zhou</strong>,
@@ -326,118 +427,106 @@
               Yaoqing Yang,
               Soroush Vosoughi
               <br>
+              <p style="margin-top: 5px; margin-bottom: 0px;">
+              </p>
               <em><strong>EMNLP main</em> 2024</strong>
               <br>
-              <a href="https://arxiv.org/abs/2410.10054">Paper</a> /
-              <br>
+              <a href="https://arxiv.org/abs/2410.10054">Paper</a>
               <p>
                 <font color="#9900FF"> [LLM efficient fine-tuning, Mixture-of-expert] </font>
-                <br>
-                We introduced a new LoRA-MoE fine-tuning approach called <strong>AlphaExpert</strong>, which utilizes the layer-wise weight analysis to assign expert numbers.
               </p>
-              <p>
-              </p>
+              <br>
             </td>
           </tr>
-
-
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src='images/mlgsl.png' width="320"></div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2110.01379">
-                <papertitle>Learn to Grasp with Less Supervision: A Data-Efficient Maximum Likelihood Grasp Sampling Loss</papertitle>
-              </a>
-                <br>  
-              <a href="https://rolandzhu.github.io/">Xinghao Zhu</a>,
-              <strong>Yefan Zhou</strong>,
-              <a href="https://scholar.google.com/citations?user=YAGWw68AAAAJ&hl=en">Yongxiang Fan</a>,
-              <a href="https://me.berkeley.edu/people/masayoshi-tomizuka/">Jianyu Chen</a>,
-              <a href="https://me.berkeley.edu/people/masayoshi-tomizuka/">Masayoshi Tomizuka</a>
-              <br>
-              <em>ICRA</em> 2022
-              <br>
-              <a href="https://arxiv.org/abs/2110.01379">arXiv</a> /
-              <a href="https://www.icra2022.org/">ICRA 2022</a> /
-              <a href="https://youtu.be/vHTMWdj4n7o">Video</a>
-              <br>
-              <p></p>
-              <p>
-                Empirical grasping datasets are typically sparsely labeled (i.e., a small number of successful grasp labels in each image). <br> We propose a maximum likelihood grasp sampling loss (MLGSL) for learning robotic grasping from sparsely labeled datasets. <br> MLGSL is 8× more data-efficient than SOTA with a 91.8% grasp success rate in real-world experiments.
-              </p>
-            </td>
-          </tr>
-
-
           
 
-
-
         </tbody></table>
-        <hr>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Academic service</heading> 
-              <p>ICLR 2024-2025, CVPR 2024-2025, ICML 2024, AAAI 2025, NeurIPS 2023, IROS 2022, TMLR, CAPL 2024,</p>
-            </td>
-            <tr>
-              <!--<td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Projects</heading>
-              </td> -->
-            </tr>
-        </tbody></table>
-        <!--
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="staff_stop()" onmouseover="staff_start()">
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>H-PG: Hybrid Deep Reinforcement Learning with Robotic Grasp Planning</papertitle>
-              <br>
-              <strong>Yefan Zhou</strong>, <a href="https://www.linkedin.com/in/xiangyu1998/">Xiangyu Zhou</a> and <a href="https://www.linkedin.com/in/jerry-ge-12b840124/">Jerry Ge</a>
-              <br>
-              <a href="https://www.youtube.com/watch?v=YFV3_CLpEdk">Video</a> /
-              <a href="data/CS285_FinalProject_ICLR.pdf">PDF</a>
-                <p>
-                  We proposed Hybrid Policy Gradient (H-PG), a novel deep reinforcement learning framework for robotic grasping task defined in continuous-discrete hybrid action space; <br> H-PG improves baseline by 7.4% of grasp success rate on YCB dataset in PyBullet simulator.
-                  <br><br>
-                </p>
-            </td>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="two" id='cover'>
-                  <img src='images/h_pg.png' width="350"></div>
-              <div class="one" id='viz'>
-                  <img src='images/h_pg_comp.png' width="380">
-              </div>              <br>
-              <script type="text/javascript">
-              function staff_start() {
-                document.getElementById('viz').style.opacity = "1";
-                document.getElementById('cover').style.opacity = "0";
-              }
+      
+       
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: 0px;
+        margin-bottom: -10px;">
+          <tbody>
+              <td style="padding:20px;width:100%;vertical-align:middle" id="experience">
+                <h2 class="section-heading">Work Experiences</h2>
+                <ul style="list-style-position: outside; padding-left: 20px;">
+                  <li style="margin-top: 20px; margin-bottom: 10px;">
+                    <strong>Jun 2025 - Sep 2025: </strong>Research Intern @ <a href="https://www.salesforceairesearch.com/">Salesforce AI Research</a>, working with Austin Xu, Yilun Zhou and Shafiq Joty.
+                  </li>
+                  <li style="margin-top: 20px; margin-bottom: 10px;">
+                    <strong>Jan 2023 - Aug 2023: </strong>Research Intern @ UC Berkeley ICSI and Sky Computing Lab, working with Yaoqing Yang and Michael Mahoney.
+                  </li>
+                </ul>
+          </tbody>
+        </table>
 
-              function staff_stop() {
-                document.getElementById('viz').style.opacity = "0";
-                document.getElementById('cover').style.opacity = "1";
-              }
-              staff_stop()
-            </script>
-            </td>
-          </tr>
-          -->
-        
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: 0px;
+        margin-bottom: -10px;">
+          <tbody>
+              <td style="padding:20px;width:100%;vertical-align:middle" id="talks">
+                <h2 class="section-heading">Recent Talks</h2>
+                <ul style="list-style-position: outside; padding-left: 20px;">
+                  <li style="margin-top: 20px; margin-bottom: 10px;">
+                    <strong>Nov. 2024: </strong>Talk at Snowflake, "Weight Matrix Diagnostics and Improved Large Language Model Compression and Fine-tuning"
+                  </li>
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <strong>Jan. 2024: </strong>Talk at AI-TIME, "Phase transition, loss landscape and model diagnostics"
+                  </li>
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <strong>Oct. 2023: </strong>Talk at UC Berkeley/ICSI TrojAI onsite, "Layer-wise Weight Analysis and Neural Network Training"
+                  </li>
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <strong>Mar. 2023: </strong>Talk at UC Berkeley/ICSI TrojAI onsite, "A Three-regime model of Network Pruning"
+                  </li>
+                </ul>
+          </tbody>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top: -15px;
+        margin-bottom: -10px;">
+          <tbody>
+            <td style="padding:20px;width:100%;vertical-align:middle" id="service">
+                <h2 class="section-heading">Services</h2>
+                
+                <h3 class="subsection-heading">Conference Reviewer</h3>
+                <ul style="list-style-position: outside; padding-left: 20px;">
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <a href="https://iclr.cc/"> ICLR (2024, 2025)</a>
+                  </li>
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <a href="https://icml.cc/"> ICML (2024, 2025)</a>
+                  </li>
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <a href="https://nips.cc/">NeurIPS (2023, 2024, 2025)</a>
+                  </li>
+                </ul>
+                <h3 class="subsection-heading">Journal Reviewer</h3>
+                <ul style="list-style-position: outside; padding-left: 20px;">
+                  <li style="margin-top: 10px; margin-bottom: 10px;">
+                    <p>Transactions on Machine Learning Research(TMLR)</p>
+                  </li>
+                </ul>
+                
+              </td>
+          </tbody>
+        </table>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
               <br>
-              <a href="https://jonbarron.info/">Website template</a>
+              <p>
+                <i style="text-align:left;font-size:medium;">Last Updated: July 2025</i>.
+              </p>
+              <p style="text-align:right;font-size:small;">
+                Photo by Lingyi. Website Template by <a href="https://github.com/jonbarron/jonbarron_website" style="text-align:right;font-size:small;">Jon Barron</a>
+              </p>
             </td>
           </tr>
         </tbody></table>
       </td>
     </tr>
   </table>
+  </div> <!-- End main-content -->
 </body>
 
 </html>
