@@ -87,9 +87,9 @@
                     <strong>Research:</strong>&nbsp; My research focuses on developing evaluation metrics and systems for ML models, spanning three dimensions: training quality, output reliability and hyperparameter.
                     This research contributes to 
                     <ul>
-                      <li><strong>Efficient training</strong>:&nbsp; LLM fine-tuning [<a href="#tb">3</a>, <a href="#tb_on_finetune">8</a>], hyperparameter optimization [<a href="#mdtree">6</a>]</li>
-                      <li><strong>Auto-evaluation</strong>:&nbsp; LLM verification for reasoning [<a href="#verify">1</a>]</li>
-                      <li><strong>Inference optimization</strong>:&nbsp; pruning [<a href="#alphaprune">4</a>, <a href="#three">7</a>], parallel decoding [<a href="#dlm">2</a>], ensembling [<a href="#sharpb">5</a>] </li>
+                      <li><strong>Efficient training</strong>:&nbsp; LLM fine-tuning [<a href="#tb">4</a>, <a href="#tb_on_finetune">9</a>, <a href="#alpha_expert">10</a>], hyperparameter optimization [<a href="#mdtree">7</a>]</li>
+                      <li><strong>Auto-evaluation</strong>:&nbsp; LLM verification for reasoning [<a href="#verify">1</a>], LLM-judge fine-tuning [<a href="#judge_finetune">3</a>]</li>
+                      <li><strong>Inference optimization</strong>:&nbsp; pruning [<a href="#alphaprune">5</a>, <a href="#three">8</a>], parallel decoding [<a href="#dlm">2</a>], ensembling [<a href="#sharpb">6</a>] </li>
                     </ul>
                   </p>
                 </div>
@@ -108,11 +108,11 @@
               <!-- <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#128227;</span> May. 2025: </strong> I gave the invited talk <a href="https://www.youtube.com/watch?v=obivLubYSnc">"From Code Generation Towards Software Engineering: Advancing Code Intelligence w/ Language Models"</a> <strong>@</strong> <strong><em style="font-weight:bold;color:rgb(65, 0, 125);">UWashington CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(39, 116, 174);">UCLA CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(196, 18, 48);">CMU SCS/S3D</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(0, 45, 114);">Johns Hopkins CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(179, 163, 105);">Georgia Tech SCS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(239, 124, 0);">NUS CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(0, 105, 62);">Dartmouth CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(153, 0, 0);">Stony Brook CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(232, 117, 0);">UT Dallas CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(233, 140, 0);">UC Santa Barbara CS</em></strong>,&nbsp; <strong><em style="font-weight:bold;color:rgb(227, 25, 51);">UMaryland CS</em></strong></span>.
               </p>-->
               
-              <!--<p style="margin-top: -10px;">
-              <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#11088;</span> Sep. 2024: </strong> "SemCoder: Training Code Language Models with Comprehensive Semantics Reasoning" got accepted by <a href="https://neurips.cc/"><strong>NeurIPS 2024</strong></a>.</span>
-              </p>-->
               <p style="margin-top: -10px;">
-                <strong><img src="images/sf.jpg" alt="SF Logo" style="width:20px; vertical-align:middle; margin-right:3px;"> Jun 2025 - Sep 2025: </strong> I joined <a href="https://www.salesforceairesearch.com/"><strong>Salesforce AI Research</strong></a> as a Research Intern, check out our work on <a href="https://yefanzhou.github.io/llm-verify-dynamic/">auto-evaluation</a>.</span>
+              <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#11088;</span> Jan 2026: </strong>  Three papers got accepted to <strong>ICLR 2026</strong> (one 1st author), thanks to my excellent collaborators and advisors! See you in Rio.</span>
+              </p>
+              <p style="margin-top: -10px;">
+                <strong><img src="images/sf.jpg" alt="SF Logo" style="width:20px; vertical-align:middle; margin-right:3px;"> Jun 2025 - Sep 2025: </strong> I joined <a href="https://www.salesforceairesearch.com/"><strong>Salesforce AI Research</strong></a> as a Research Intern, check out our two ICLR papers on auto-evaluation ([<a href="#verify">1</a>, <a href="#judge_finetune">3</a>]).</span>
               </p>
               <p style="margin-top: -10px;">
                 <strong> <span style="width:20px; vertical-align:middle; margin-right:5px;">&#128227;</span> Aug 2024: </strong> I passed the PhD qualification exam!
@@ -141,16 +141,16 @@
             <tr id="publications">
             <td style="padding:20px;width:100%;vertical-align:middle">
               <h2 class="section-heading">Recent Publications </h2>
-              <p style="margin-top: 10px; font-style: italic;">* indicates equal contribution</p>
+              <p style="margin-top: 10px; font-style: italic;">First-author papers are <span style="background-color: #ecf1de; padding: 2px 4px; border-radius: 2px;">highlighted</span> and * indicates equal contribution</p>
             </td>
           </tr>
         </tbody></table>
       
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-bottom: 30px;"><tbody>
-        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()" style="background-color: #ecf1de;">
           <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
               <img src='images/v_in_v.png' width="250">
-              <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[1]</span>
+              <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[1]</span>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://arxiv.org/abs/2509.17995">
@@ -166,11 +166,12 @@
             <br>
             <p style="margin-top: 5px; margin-bottom: 0px;">
             </p>
-            <em><strong>Preprint</em></strong>
+            <em><strong>ICLR</em> 2026</strong>
             <br>
             <a href="https://arxiv.org/abs/2509.17995">Paper</a> /
             <a href="https://yefanzhou.github.io/llm-verify-dynamic/">Project</a> /
             <a href="https://x.com/CaimingXiong/status/1970530174178636195">Twitter</a> 
+            <a href="https://github.com/YefanZhou/llm-verify-dynamics">Code</a>
             <p>
               <font color="#9900FF"> [auto-evaluation, judge for reasoning, test-time scaling] </font>
             </p>
@@ -179,7 +180,7 @@
         <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
           <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
               <img src='images/dlm.png' width="250">
-              <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[2]</span>
+              <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[2]</span>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://arxiv.org/abs/2508.19982">
@@ -198,19 +199,46 @@
             <br>
             <p style="margin-top: 5px; margin-bottom: 0px;">
             </p>
-            <em><strong>Preprint</em></strong>
+            <em><strong>ICLR</em> 2026</strong>
             <br>
             <a href="https://arxiv.org/abs/2509.17995">Paper</a> /
             <a href="https://github.com/pixeli99/Prophet">Code</a> 
             <p>
-              <font color="#9900FF"> [efficient inference, parallel decoding, DLM] </font>
+              <font color="#9900FF"> [efficient inference, diffusion language models, parallel decoding] </font>
             </p>
           </td>
         </tr>
         <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
           <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
+              <img src='images/judge_finetune.png' width="250">
+              <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[3]</span>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2508.19982">
+              <papertitle id="judge_finetune">On the Shelf Life of Finetuned LLM-Judges: Future Proofing, Backward Compatibility, and Question Generalization</papertitle>
+            </a>
+            <br>
+            Janvijay Singh,
+            Austin Xu,
+            Yilun Zhou,
+            <strong>Yefan Zhou</strong>, 
+            Dilek Hakkani-Tür, 
+            Shafiq Joty
+            <br>
+            <p style="margin-top: 5px; margin-bottom: 0px;">
+            </p>
+            <em><strong>ICLR</em> 2026</strong>
+            <br>
+            <a href="https://arxiv.org/abs/2509.23542">Paper</a> 
+            <p>
+              <font color="#9900FF"> [judge fine-tuning, preference optimization] </font>
+            </p>
+          </td>
+        </tr>
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()" style="background-color: #ecf1de;">
+          <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
               <img src='images/tempbalance.png' width="250">
-              <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[3]</span>
+              <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[4]</span>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://arxiv.org/abs/2312.00359">
@@ -236,10 +264,10 @@
             </p>
           </td>
         </tr>
-        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+        <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()" style="background-color: #ecf1de;">
             <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
                 <img src='images/alphaprune.png' width="250">
-                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[4]</span>
+                <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[5]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2410.10912">
@@ -264,10 +292,10 @@
               </p>
             </td>
           </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()" style="background-color: #ecf1de;">
             <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
                 <img src='images/sharpb.png' width="250">
-                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[5]</span>
+                <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[6]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2407.12996">
@@ -296,10 +324,10 @@
               <br>
             </td>
           </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()" style="background-color: #ecf1de;">
             <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
                 <img src='images/md_tree.png' width="250">
-                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[6]</span>
+                <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[7]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2406.16988">
@@ -325,10 +353,10 @@
               <br>
             </td>
           </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()" style="background-color: #ecf1de;">
             <td style="padding:20px 20px 20px 55px;width:25%;vertical-align:middle;position:relative;">
                 <img src='images/overview_sharp.png' width="250">
-                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[7]</span>
+                <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[8]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2305.18383">
@@ -356,7 +384,7 @@
           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
             <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
                 <img src='images/emnlp2024.png' width="250">
-                <span style="position:absolute;top:10px;left:38px;font-size:12px;color:#666;">[8]</span>
+                <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[9]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/pdf/2410.12178">
@@ -383,8 +411,9 @@
             </td>
           </tr>
           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle">
+            <td style="padding:5px 5px 10px 55px;width:25%;vertical-align:middle;position:relative;">
                 <img src='images/alpha_expert.png' width="250">
+                <span style="position:absolute;top:10px;left:38px;font-size:14px;color:#666;">[10]</span>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2410.10054">
